@@ -16,13 +16,13 @@
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer adds support for something.
+This layer adds support for Zotero from within Spacemacs.
+Heavily inspired by [[http://www.mkbehr.com/posts/a-research-workflow-with-zotero-and-org-mode/]].
 
 ** Features:
-  - Autocomplete
-  - Lint
-  - Refactor
-  - ...
+  - Installs zotxt.
+  - Adds org-zotxt-mode to every org mode buffer.
+  - Rebinds org-zotxt-insert-reference-link to something more convenient.
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -31,9 +31,10 @@ file.
 
 * Key bindings
 
-| Key Binding | Description    |
-|-------------+----------------|
-| ~SPC x x x~ | Does thing01   |
+| Key Binding | Description                     |
+|-------------+---------------------------------|
+| ~C-c " "~   | org-zotxt-insert-reference-link |
+|             |                                 |
 
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
